@@ -1,8 +1,12 @@
-# React + Vite
+# GSheets to JSON
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Check it out live here.](https://gsheets-to-json.timinc.us/)
 
-Currently, two official plugins are available:
+## What
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A front-end app that allows users to select a publically-accessible Google Sheets worksheet and turn it into a JSON file.
+
+## How
+
+* Uses React (Vite), my own [downloadfile-js](https://github.com/tmetcalfe89/downloadfile-js), and the Google Docs API.
+* Uses [Pico CSS](https://picocss.com/) for the quick-and-semantic styling.
